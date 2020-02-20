@@ -101,6 +101,7 @@ router.post('/payout', pilotRequired, async (req, res) => {
         amount: amount,
         currency: currency,
         statement_descriptor: config.appName,
+        method: 'instant',
       },
       {
         stripe_account: pilot.stripeAccountId,
