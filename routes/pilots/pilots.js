@@ -87,7 +87,7 @@ async function createStripeAccount(pilot, type, ipAddress) {
       email: pilot.email,
       // Assign a debit card to the Custom account as a payment method:
       // we use a test token for simplicity in this demo.
-      external_account: 'tok_1GE4OEBZmdXRVR9oVDxdUOsI',
+      external_account: 'tok_1GEJpmBZmdXRVR9o4ktUrnrI',
       requested_capabilities,
       /* If you're not using Connect Onboarding, you'll need to include a link to 
       *  Stripe's service agreement and record the user's acceptance of our terms.
@@ -116,7 +116,7 @@ async function createStripeAccount(pilot, type, ipAddress) {
       email: pilot.email,
       // Assign a debit card to the Custom account as a payment method:
       // we use a test token for simplicity in this demo.
-      external_account: 'tok_1GE4OEBZmdXRVR9oVDxdUOsI',
+      external_account: 'tok_1GEJpmBZmdXRVR9o4ktUrnrI',
       requested_capabilities,
       /* If you're not using Connect Onboarding, you'll need to include a link to 
       *  Stripe's service agreement and record the user's acceptance of our terms.
