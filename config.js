@@ -2,7 +2,7 @@
 
 module.exports = {
   // App name
-  appName: 'Rocket Deliveries CA TEST',
+  appName: 'ROCKETCATEST',
 
   // Public domain of Rocket Deliveries
   publicDomain: process.env.ENV === 'local' ? 'http://localhost:3000' : 'https://rocket-deliveries-ca-test.herokuapp.com/',
